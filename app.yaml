@@ -3,8 +3,7 @@ entrypoint: gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
 
 
 env_variables:
-  HOLA_MUNDO: 'hola_mundo'
-  DB_HOST: 'tu_host'
-  DB_NAME: 'nombre_de_tu_database'
-  DB_USER: 'usuario_de_tu_database'
-  DB_PASSWORD: 'contrasena'
+  DB_CONNECTION_NAME: 'my-project-suspension:us-central1:user-cloud-db'
+  DB_NAME: 'postgres'
+  DB_USER: 'postgres'
+  DB_PASSWORD: 'Nube1234@'
