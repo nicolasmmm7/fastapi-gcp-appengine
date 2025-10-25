@@ -1,2 +1,33 @@
+# Evitar subir archivos de entorno
+.env
+.env.*
+
+# Carpetas del entorno virtual
+venv/
+ENV/
 env/
+
+# Compilados de Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración local
+*.sqlite3
+*.db
+
+# Archivos de log
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de despliegue local o temporales
+*.bak
+*.swp
